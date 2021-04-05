@@ -216,8 +216,41 @@ Tidak semua NFA adalah DFA
 NFA membutuhkan lebih sedikit ruang (space)</p>
 
  
+            </div>
+        </section>
 
 
+        <section>
+            <div class ="rangkuman">
+               
+                <h2>Pertemuan Lima <br>Konfersi NFA ke DFA</h2>
+                
+
+                <p> Non-Deterministic Finite Automata (NFA) menerima masukan (input) dengan memiliki lebih dari 1 busur keluar atau bahkan tidak memiliki busur keluar. 
+                    Non-Deterministic Finite Automata (NFA) sering dikenal juga sebagai Non-Deterministic Finite-State Machine (NFSM) dan Non-Deterministic 
+                    Finite-State Automaton (NFSA).
+                    DFA adalah Finite-state Machine atau mesin keadaan terbatas yang menerima atau menolak string dari simbol dan 
+                    hanya menghasilkan perhitungan unik dari otomata untuk setiap string yang di masukan.</p>
+
+                    <p>
+                        Langkah-langkah Konversi NFA-DFA<br><br>
+                        Buat tabel transisi NFA<br><br>
+                        Jika diberi transition diagram, ubah ke tabel transisi.<br><br>
+                        Buat tabel transisi DFA<br><br>
+                        
+                        <ul>
+                            <li>- Salin kondisi state awal dari NFA ke kondisi state awal DFA. </li>
+                            <li>- Jika ditemukan state baru saat transisi, masukkan state tersebut ke state di DFA.</li>
+                            <li>-  Apabila state baru tersebut merupakan gabungan dari beberapa state, maka hasil transisinya adalah gabungan dari transisi 
+                                beberapa state. Contohnya transisi state [q0, q1] ke 0, adalah transisi state q0 ke 0 digabung transisi state q1 ke 0. </li>
+                            <li> - Apabila state memiliki final state maka state tersebut adalah final state </li>
+                            <li>-  Ulangi langkah 2-4 sampai semua state terdaftar</li>
+                        </ul><br>
+                        Dari suatu mesin Non Deterministic Finite Automata (NFA) dapat dikonversi atau dibuat menjadi suatu mesin Deterministic 
+                        Finite Automata (DFA) yang memiliki kemampuan menerima Bahasa yang sama (ekuivalen).
+                    </p>
+
+ 
             </div>
         </section>
 

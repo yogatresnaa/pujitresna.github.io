@@ -156,12 +156,11 @@ table {
 /* Header */
 
 .header {
-    background-color: white;
+    background-color: gray;
 
     width: 100%;
     height: 100px;
     position: fixed;
-
 
     opacity: 0.9;
 
@@ -174,7 +173,7 @@ table {
 }
 
 .header h2 {
-    color: rgb(10, 45, 241);
+    color: rgb(209, 211, 223);
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px;
     font-size: 30px;
@@ -211,7 +210,7 @@ table {
 
 .navigasi ul li a {
     text-decoration: none;
-    color: rgb(7, 23, 252);
+    color: rgb(241, 242, 245);
     padding: 7px;
     font-size: 20px;
     font-family: Tahoma;
@@ -221,10 +220,10 @@ table {
 .navigasi ul li a:hover,
 .navigasi ul li a:active {
 
-    background: rgb(59, 8, 245);
+    background: rgb(125, 118, 160);
     border-radius: 5px;
     box-sizing: border-box;
-    color: white;
+    color: rgb(20, 24, 238);
 
 
 
@@ -305,10 +304,20 @@ ul li:hover .submenu a {
     padding: 20px;
     box-sizing: border-box;
     box-shadow: 0 10px 10px 0 rgb(14, 136, 236);
+    border: 1px solid red;
 
 
 
 
+}
+
+.contain h1 {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(12, 46, 240);
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px;
 }
 
 .contain h2 {
@@ -317,7 +326,7 @@ ul li:hover .submenu a {
     color: rgb(12, 46, 240);
     text-align: center;
     padding: 20px;
-    margin-bottom: 70px;
+    margin-top: 10px;
 }
 
 .contain .main {
@@ -545,7 +554,7 @@ ul li:hover .submenu a {
 
 .rangkuman p {
     text-align: justify;
-
+    border: solid grey 1px;
     padding: 15px;
     box-sizing: border-box;
     border-radius: 3%;
